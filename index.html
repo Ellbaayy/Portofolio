@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | [Gesang Hemas Bayu Sekti]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo">Gesang Hemas Bayu Sekti</a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="nav-links">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#projects">Proyek</a>
+            <a href="https://wa.me/62895365435586?text=Halo,%20saya%20tertarik%20dengan%20portofolio%20Anda." target="_blank" rel="noopener noreferrer">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Halo, Saya <span class="typed-text"></span></h1>
+                <p class="hero-subtitle">Seorang Web Developer yang antusias membangun pengalaman digital yang menarik.</p>
+                <a href="#projects" class="cta-button">Lihat Karya Saya</a>
+            </div>
+            <div class="animated-bg"></div>
+        </section>
+
+        <section id="about" class="container fade-in-section">
+            <h2 class="section-title">Tentang Saya</h2>
+            <p>Saya adalah seorang pengembang web yang antusias dengan teknologi frontend dan backend. Saya senang membangun aplikasi yang tidak hanya berfungsi dengan baik, tetapi juga memiliki desain yang menarik dan user-friendly. Saat ini saya fokus pada teknologi seperti JavaScript, Node.js, dan React.</p>
+        </section>
+
+        <section id="projects" class="container fade-in-section">
+            <h2 class="section-title">Proyek Saya</h2>
+            <div id="projects-container" class="projects-grid">
+                <!-- Proyek-proyek akan dimuat di sini oleh JavaScript -->
+            </div>
+        </section>
+
+        <section id="contact" class="container fade-in-section">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Gesang Hemas Bayu Sekti" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            <p id="form-status"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gesang Hemas Bayu Sekti</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
